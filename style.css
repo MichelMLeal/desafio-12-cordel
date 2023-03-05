@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-1: Verdana, Geneva, Tahoma, sans-serif;
+  --font-family: 'Passion One', cursive;
+  --font-family-2: 'Sriracha', cursive;
+}
+
+html,
+bady {
+  background-color: azure;
+  min-height: 100vh;
+  font-family: var(--font-1);
+}
+header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header > h1 {
+  font-family: var(--font-family);
+  font-variant: small-caps;
+  font-size: 10vw;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
+  line-height: 2em;
+  font-family: var(--font-family-2);
+  font-size: 3.5vw;
+}
+
+section > p {
+  padding-bottom: 2em;
+}
+
+section#img01 {
+  background-image: url('imgs/pexels-jessica-lewis-creative-583842.jpg');
+}
+
+section#img02 {
+  background-image: url('imgs/pexels-jubair-bin-iqbal-1566308.jpg');
+}
+
+.normal {
+  background-color: white;
+  color: black;
+}
+
+.imagem {
+  background-color: rgba(0, 0, 0, 0.735);
+  color: white;
+  box-shadow: inset 0 0 15px black;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.imagem > p {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.655);
+  text-shadow: 0 0 5px black;
+  box-shadow: 0 0 15px black;
+  padding: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
